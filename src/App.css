@@ -1,0 +1,151 @@
+/* navbar styles */
+.navbar {
+  text-align: center;
+  margin-block: 20px;
+}
+.navbar--header {
+  color: #ea04fe;
+  text-decoration: underline;
+  text-decoration-color: #ea04fe;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 900;
+}
+/* navbar styles end */
+
+/* buttons */
+.inputs {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #344fa1;
+  color: #ea04fe;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* buttons end */
+
+/* add button and search bar */
+.form {
+  text-align: center;
+}
+
+.form-search {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 8px 10px;
+  margin-left: 23px;
+  width: 60%;
+  font-size: 16px;
+  background-color: #98b5ff;
+}
+/* add button and search bar end */
+
+/* tasks btns */
+.all-tasks {
+  margin-bottom: 14px;
+  padding: 6px 37px;
+}
+.active-tasks {
+  margin-bottom: 14px;
+  padding: 6px 24px;
+}
+.completed-tasks {
+  padding: 6px 4px;
+}
+/* tasks btns end */
+
+/* tasks */
+.task--list-btn {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.task--lst {
+  padding: 5px 5px;
+  background-color: #344fa1;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.task--lst h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ea04fe;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.task--lst h3 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+  color: #98b5ff;
+  margin-bottom: 4px;
+}
+.input--para {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.task--list_icon {
+  margin-right: 12px;
+  color: #ffefff;
+}
+.task--list_para {
+  color: #ffefff;
+  margin: 0;
+}
+.task--lst_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task--editbtn {
+  margin-right: 5px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #98b5ff;
+  color: #344fa1;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.task--deletebtn {
+  padding: 4px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #ea04fe;
+  color: #ffefff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.task--btns{
+  display: grid;
+  background-color: red;
+  height: 0;
+}
+
+.tasks {
+  margin-bottom: .6rem;
+}
